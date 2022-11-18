@@ -1,0 +1,12 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "prod": "BACKEND_URL=http://localhost:4000 PORT=5000 node ."
+  }
+}
